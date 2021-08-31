@@ -1,0 +1,176 @@
+﻿<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Nana老師多媒體課程 DIV</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+
+
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<title>list + 背景底圖如何在網頁上看起來高度不一致</title>
+
+
+
+<link href="layout.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+@import url("reset.css");
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+限制IE及edge使用模準模式
+
+
+
+
+
+為了讓CSS3樣式兼容，需要加上
+例如：
+-ms- 兼容IE瀏覽器(IE私有屬性)
+-moz 兼容Firefox (Firefox私有屬性)
+-webkit- 兼容chrome和safari(chrome及safari私有屬性)
+-o代表opera私有屬性
+
+div{
+-ms-transform：rotate(30deg);
+...........
+}
+
+
+
+
+
+
+
+告別瀏覽器兼容問題（4種方案解決CSS瀏覽器兼容性問題）
+瀏覽器私有屬性
+https://kknews.cc/code/3a5n2jo.html
+
+*{ 
+margin: 0; 
+padding: 0;
+ }
+html { 
+line-height: 1.15; 
+/* Correct the line height in all browsers */ 
+
+-webkit-text-size-adjust: 100%;
+ /* Prevent adjustments of font size after orientation changes in iOS. */
+ } 
+
+body { 
+margin: 0; 
+} 
+
+a { 
+background-color: transparent; 
+/* Remove the gray background on active links in IE 10. */
+
+ } 
+
+img { 
+border-style: none; 
+/* Remove the border on images inside links in IE 10. */
+
+ }
+
+
+
+
+
+
+
+
+
+https://blog.darkthread.net/blog/x-ua-compatible-setting/
+搞懂X-UA-Compatible IE相容設定
+
+
+
+
+
+
+媒體查詢  Media Queries
+
+<link href="qqqq.css" rel="stylesheet" media="screen and (max-width: 500px)">
+
+
+
+text-size-adjust
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-size-adjust 文章來源
+https://www.itread01.com/articles/1485098380.html  
+網頁字體縮放樣式-webkit-text-size-adjust的用法詳解
+
+
+
+
+
+
+font-family: Anton, sans-serif;
+
+
+font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+
+
+
+
+
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>無標題文件</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout.css">
+
+
+去鋸齒 for 不同瀏覽器  前綴字
+-webkit-font-smoothing: antialiased; /*chrome、safari*/
+-moz-osx-font-smoothing: grayscale;/*firefox*/
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="menu.js"></script>
+
+
+
+<div class="MENU">
+  <ul>
+    <li id="menu1"><a href="#">Photoshop</a>
+      <ul id="sub1">
+        <li><a href="#">Photoshop</a></li>
+        <li><a href="#">Photoshop</a></li>
+        <li><a href="#">Photoshop</a></li>
+        <li><a href="#">Photoshop</a></li>
+      </ul>
+    </li>
+<div>
+
+
+
+ .BOX {
+            transition: all 0.6s ease-out;
+        }
+        
+        .BOX:hover {
+			background-color: #FCDBB5;
+            width: 800px;	
+        }
+		
+

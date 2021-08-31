@@ -1,0 +1,38 @@
+      授課大綱 
+
+      Chapter 1
+
+      Dreamweaver 新增功能 
+      整體環境介紹
+      建立文字超連結
+      影像連結 ( 單一圖檔的連結 影像地圖的連結 ) 
+
+      Chapter 2
+
+      基本功能介紹 : 網頁的編輯 
+      ( 網頁屬性、文字屬性、搜尋及替代文字功能 )
+      CSS樣式表 
+      建立外部連結樣式表
+      超連結去底線
+      HTML 樣式 
+
+      Chapter 3 
+
+      網頁圖檔格式
+      Object 面板 ( 物件面板 )中影像的嵌入
+      Image Properties 
+      Insert Rollover Image
+      
+	  
+      Chapter 4
+
+      表格屬性儲存格屬性 
+      表狀資料物件
+      表格排序 
+      利用表格做版面定位 
+
+ 
+     
+        
+
+ 
